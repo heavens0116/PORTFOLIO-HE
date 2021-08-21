@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="imgs/favicon.png" />
+  <title>heaven's Portfolio</title>
+  <meta name="author" content="Heaven" />
+  <script src="https://kit.fontawesome.com/ba05077334.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar_logo">
+      <i class="fas fa-cloud-moon"></i>
+      <a href="#">Heaven's</a>
+    </div>
+    <ul class="navbar_menu">
+      <li class="navbar_menu_item active" data-link="#home">Home</li>
+      <li class="navbar_menu_item" data-link="#about">About</li>
+      <li class="navbar_menu_item" data-link="#skills">Skills</li>
+      <li class="navbar_menu_item" data-link="#work">My work</li>
+      <li class="navbar_menu_item" data-link="#testimonials">Testimonial</li>
+      <li class="navbar_menu_item" data-link="#contact">Contact</li>
+    </ul>
+    <!-- Toggle button -->
+    <button class="navbar_toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home_container">
+      <img src="imgs/profile.jpg" alt="Heaven's profile photo" class="home_avatar">
+      <h1 class="home_title">Hello, <br /> I'm Dream Corder</h1>
+      <!-- 강조하고 싶은 문장 적기 -->
+      <h2 class="home_description">퍼블리셔를 시작으로 프론트와 백을 넘나들 수 있는 개발자가 되기를 꿈꿉니다.</h2>
+      <button class="home_contact">Contact Me</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section_container">
+    <h1>About ME</h1>
+    <!-- 나를 잘 어필 할 수 있는 문장 2-3 문장 -->
+    <p>TIS정보기술교육센터에서 퍼블리셔와 프론트엔드 6개월 과정을 수료하였으며, html, css, jQuery, 약간의 Vue와 React 를 배웠습니다.</p>
+    <div class="about_majors">
+      <div class="major">
+        <div class="major_icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h2 class="major_title">Front-end</h2>
+        <div class="major_description">
+          HTML, CSS, JavaScript,
+          <br /> React, Vue, Web APIs
+        </div>
+      </div>
+
+      <div class="major">
+        <div class="major_icon">
+          <i class="fas fa-mobile"></i>
+        </div>
+        <h2 class="major_title">Mobile</h2>
+        <p class="major_description">
+          Android, iOS, React Native, Flutter,
+          <br />Java, Swift, Kotlin
+        </p>
+      </div>
+
+      <div class="major">
+        <div class="major_icon">
+          <i class="fas fa-server"></i>
+        </div>
+        <h2 class="major_title">Back-end</h2>
+        <p class="major_description">
+          Java, JavaScript, Go, NodeJS,
+          <br />Rest APIs, GraphGL
+        </p>
+      </div>
+    </div>
+
+    <div class="about_jobs">
+      <div class="job">
+        <img src="imgs/jobs/tis.png" alt="TIS정보기술교육센터" class="job_logo" />
+        <div class="job_description">
+          <p class="job_name">
+            내용 아직 없음
+          </p>
+          <p class="job_period"> 2021-03-31 - 2021-08-19 수료 완료</p>
+        </div>
+      </div>
+      <div class="job">
+        <img src="imgs/jobs/tis.png" alt="TIS정보기술교육센터" class="job_logo" />
+        <div class="job_description">
+          <p class="job_name">
+            내용 아직 없음
+          </p>
+          <p class="job_period"> 2021-03-31 - 2021-08-19 수료 완료</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section_container">
+      <h1>Skills</h1>
+      <h2>Skills & Attribute</h2>
+      <p>
+        Experience with all phases of the software life-cycle. Passion for
+        learning new technologies. Capable of working within a team environment
+        and independently. Ability to plan and time schedule, work under strict
+        time pressure and adapt quickly when needed.
+      </p>
+      <div class="skillset">
+        <div class="skillset_left">
+          <h3 class="skillset_title">Skills</h3>
+
+          <div class="skill">
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>40%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill_description">
+              <span>css</span>
+              <span>30%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value " style="width: 30%"></div>
+            </div>
+          </div>
+
+          <div class=" skill">
+            <div class="skill_description">
+              <span>scss / sass </span>
+              <span>%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <div class=" skill">
+            <div class="skill_description">
+              <span>vue</span>
+              <span>%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill_description">
+              <span>react</span>
+              <span>%</span>
+            </div>
+            <div class="skill_bar">
+              <div class="skill_value" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skillset_right">
+          <div class="tools">
+            <h3 class="skillset_title">Tools</h3>
+            <ul class="tools_list">
+              <li><span>visual studio code</span></li>
+              <li><span>X</span></li>
+              <li><span>X</span></li>
+              <li><span>X</span></li>
+              <li><span>X</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="sillset_title">Etc</h3>
+            <ul class="etc_list">
+              <li><span>Git</span></li>
+              <li><span>X</span></li>
+              <li><span>X</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="section_container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work_categories">
+        <button class="category_btn selected" data-filter="*">All
+          <span class="category_count">0</span>
+        </button>
+        <button class="category_btn" data-filter="front-end">Front-end
+          <span class="category_count">0</span>
+        </button>
+        <button class="category_btn" data-filter="back-end">Back-end
+          <span class="category_count">0</span>
+        </button>
+        <button class="category_btn" data-filter="mobile">Mobile
+          <span class="category_count">0</span>
+        </button>
+      </div>
+
+      <div class="work_projects">
+        <a href="" class="project" target="blank" data-type="front-end">
+          <img class="project_img" src="imgs/projects/project1.png" alt="project1" />
+          <div class="project_description">
+            <h3>Youtube Site 1 </h3>
+            <span>Clone coding with HTMl and CSS 1</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="front-end" target="blank">
+          <img class="project_img" src="imgs/projects//project2.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 2</h3>
+            <span>Clone coding with HTMl and CSS 2</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="front-end" target="blank">
+          <img class="project_img" src="imgs/projects/project3.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 3</h3>
+            <span>Clone coding with HTMl and CSS 3</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project_img" src="imgs/projects/project4.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 4</h3>
+            <span>Clone coding with HTMl and CSS 4</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project_img" src="imgs/projects/project5.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 5</h3>
+            <span>Clone coding with HTMl and CSS 5</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project_img" src="imgs/projects/project6.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 6</h3>
+            <span>Clone coding with HTMl and CSS 6</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project_img" src="imgs/projects/project7.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 7</h3>
+            <span>Clone coding with HTMl and CSS 7</span>
+          </div>
+        </a>
+
+        <a href="" class="project" data-type="mobile">
+          <img class="project_img" src="imgs/projects/project8.png" alt="" />
+          <div class="project_description">
+            <h3>Youtube Site 8</h3>
+            <span>Clone coding with HTMl and CSS 8</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testmonials -->
+  <section id="testimonials" class="section">
+    <div class="section_container">
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="imgs/testimonial/people1-200515-154332.jpg" alt="avatar1" class="testimonial_avatar" />
+          <div class="testimonial_speech-bubble">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              fuga libero nulla eveniet aperiam laborum, quis provident
+              quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+              explicabo tempora, dignissimos accusantium inventore ducimus!</p>
+            <p class="name"><a href="">Ellie</a> Samsung</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial_speech-bubble">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              fuga libero nulla eveniet aperiam laborum, quis provident
+              quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+              explicabo tempora, dignissimos accusantium inventore ducimus!</p>
+            <p class="name"><a href="">Ellie</a> Samsung</p>
+          </div>
+          <img src="imgs/testimonial/people1-200515-154332.jpg" alt="avatar1" class="testimonial_avatar" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h1 class="contact_title">Let's talk</h1>
+    <h2 class="contact_email">givheavens0116@gmail.com</h2>
+    <div class="contact_links">
+      <a href="https://github.com/heavens0116?tab=repositories" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="contact_rights">
+      2021 Dream Coding Ellie - All rights reserved
+    </p>
+  </section>
+
+  <!-- Arrow up -->
+  <button class=arrow-up>
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+
+</html>
